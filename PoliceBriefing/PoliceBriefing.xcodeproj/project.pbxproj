@@ -22,6 +22,8 @@
 		846004E618F683130060F425 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846004C518F683130060F425 /* UIKit.framework */; };
 		846004EE18F683130060F425 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 846004EC18F683130060F425 /* InfoPlist.strings */; };
 		846004F018F683130060F425 /* PoliceBriefingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846004EF18F683130060F425 /* PoliceBriefingTests.m */; };
+		846004FE18F687E00060F425 /* genericpolicelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 846004FD18F687E00060F425 /* genericpolicelogo.png */; };
+		8460050018F688430060F425 /* Logo Linked In 50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 846004FF18F688430060F425 /* Logo Linked In 50x50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		846004EB18F683130060F425 /* PoliceBriefingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PoliceBriefingTests-Info.plist"; sourceTree = "<group>"; };
 		846004ED18F683130060F425 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		846004EF18F683130060F425 /* PoliceBriefingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoliceBriefingTests.m; sourceTree = "<group>"; };
+		846004FD18F687E00060F425 /* genericpolicelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = genericpolicelogo.png; sourceTree = "<group>"; };
+		846004FF18F688430060F425 /* Logo Linked In 50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo Linked In 50x50.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				846004D918F683130060F425 /* ViewController.h */,
 				846004DA18F683130060F425 /* ViewController.m */,
 				846004DC18F683130060F425 /* Images.xcassets */,
+				846004FD18F687E00060F425 /* genericpolicelogo.png */,
+				846004FF18F688430060F425 /* Logo Linked In 50x50.png */,
 				846004C818F683130060F425 /* Supporting Files */,
 			);
 			path = PoliceBriefing;
@@ -231,7 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8460050018F688430060F425 /* Logo Linked In 50x50.png in Resources */,
 				846004D818F683130060F425 /* Main_iPad.storyboard in Resources */,
+				846004FE18F687E00060F425 /* genericpolicelogo.png in Resources */,
 				846004DD18F683130060F425 /* Images.xcassets in Resources */,
 				846004D518F683130060F425 /* Main_iPhone.storyboard in Resources */,
 				846004CC18F683130060F425 /* InfoPlist.strings in Resources */,

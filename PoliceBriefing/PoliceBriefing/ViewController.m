@@ -18,6 +18,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    // Build the url and loadRequest
+    NSString *urlString = @"http://player.theplatform.eu/p/tqLdRC/IEYkpX_sQZ0D";
+ //   NSString *urlString = [NSString stringWithFormat:@"%@%@%@",address,params1,params2];
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:urlString]]];
 }
 
 - (void)didReceiveMemoryWarning
