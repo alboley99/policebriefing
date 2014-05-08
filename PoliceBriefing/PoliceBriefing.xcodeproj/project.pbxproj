@@ -24,6 +24,7 @@
 		846004F018F683130060F425 /* PoliceBriefingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846004EF18F683130060F425 /* PoliceBriefingTests.m */; };
 		846004FE18F687E00060F425 /* genericpolicelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 846004FD18F687E00060F425 /* genericpolicelogo.png */; };
 		8460050018F688430060F425 /* Logo Linked In 50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 846004FF18F688430060F425 /* Logo Linked In 50x50.png */; };
+		84CE101A191B71AE005EFB49 /* coplinklogo2152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CE1019191B71AE005EFB49 /* coplinklogo2152x152.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		846004EF18F683130060F425 /* PoliceBriefingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoliceBriefingTests.m; sourceTree = "<group>"; };
 		846004FD18F687E00060F425 /* genericpolicelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = genericpolicelogo.png; sourceTree = "<group>"; };
 		846004FF18F688430060F425 /* Logo Linked In 50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo Linked In 50x50.png"; sourceTree = "<group>"; };
+		84CE1019191B71AE005EFB49 /* coplinklogo2152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coplinklogo2152x152.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				846004DA18F683130060F425 /* ViewController.m */,
 				846004DC18F683130060F425 /* Images.xcassets */,
 				846004FD18F687E00060F425 /* genericpolicelogo.png */,
+				84CE1019191B71AE005EFB49 /* coplinklogo2152x152.png */,
 				846004FF18F688430060F425 /* Logo Linked In 50x50.png */,
 				846004C818F683130060F425 /* Supporting Files */,
 			);
@@ -241,6 +244,7 @@
 				846004D818F683130060F425 /* Main_iPad.storyboard in Resources */,
 				846004FE18F687E00060F425 /* genericpolicelogo.png in Resources */,
 				846004DD18F683130060F425 /* Images.xcassets in Resources */,
+				84CE101A191B71AE005EFB49 /* coplinklogo2152x152.png in Resources */,
 				846004D518F683130060F425 /* Main_iPhone.storyboard in Resources */,
 				846004CC18F683130060F425 /* InfoPlist.strings in Resources */,
 			);
@@ -396,7 +400,6 @@
 		846004F418F683130060F425 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PoliceBriefing/PoliceBriefing-Prefix.pch";
@@ -409,7 +412,6 @@
 		846004F518F683130060F425 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PoliceBriefing/PoliceBriefing-Prefix.pch";
@@ -478,6 +480,7 @@
 				846004F518F683130060F425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		846004F618F683130060F425 /* Build configuration list for PBXNativeTarget "PoliceBriefingTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +489,7 @@
 				846004F818F683130060F425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
